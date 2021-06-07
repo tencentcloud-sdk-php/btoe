@@ -20,18 +20,18 @@ use TencentCloud\Common\AbstractModel;
 /**
  * VerifyEvidenceBlockChainTxHash请求参数结构体
  *
- * @method string getEvidenceTxHash() 获取‘区块链交易hash，在"存证基本信息查询”中可以获取
- * @method void setEvidenceTxHash(string $EvidenceTxHash) 设置‘区块链交易hash，在"存证基本信息查询”中可以获取
+ * @method string getEvidenceTxHash() 获取区块链交易 hash，在“存证基本信息查询（GetDepositInfo）”接口中可以获取。
+ * @method void setEvidenceTxHash(string $EvidenceTxHash) 设置区块链交易 hash，在“存证基本信息查询（GetDepositInfo）”接口中可以获取。
  */
 class VerifyEvidenceBlockChainTxHashRequest extends AbstractModel
 {
     /**
-     * @var string ‘区块链交易hash，在"存证基本信息查询”中可以获取
+     * @var string 区块链交易 hash，在“存证基本信息查询（GetDepositInfo）”接口中可以获取。
      */
     public $EvidenceTxHash;
 
     /**
-     * @param string $EvidenceTxHash ‘区块链交易hash，在"存证基本信息查询”中可以获取
+     * @param string $EvidenceTxHash 区块链交易 hash，在“存证基本信息查询（GetDepositInfo）”接口中可以获取。
      */
     function __construct()
     {
